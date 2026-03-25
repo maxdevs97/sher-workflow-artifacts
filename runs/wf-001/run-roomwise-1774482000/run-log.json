@@ -1,0 +1,65 @@
+{
+  "runId": "run-roomwise-1774482000",
+  "workflowId": "wf-001",
+  "workflowName": "Wireframe Delivery",
+  "clientName": "RoomWise",
+  "status": "complete",
+  "startedAt": "2026-03-25T23:39:00.000Z",
+  "completedAt": "2026-03-25T23:41:00.000Z",
+  "triggeredBy": "user",
+  "triggeredByName": "Max Sher",
+  "steps": [
+    {
+      "stepId": "step-wf001-1",
+      "name": "Request Made",
+      "status": "complete",
+      "startedAt": "2026-03-25T23:39:00.000Z",
+      "completedAt": "2026-03-25T23:39:05.000Z",
+      "input": "Client: RoomWise Property Management. Co-living rooms for rent in Dallas. Build homepage wireframe.",
+      "output": "Request logged. Context pulled from Reverb.",
+      "screenshotUrl": null,
+      "tokenCount": null,
+      "model": null,
+      "error": null
+    },
+    {
+      "stepId": "step-wf001-2",
+      "name": "Pull Client Context",
+      "status": "complete",
+      "startedAt": "2026-03-25T23:39:05.000Z",
+      "completedAt": "2026-03-25T23:39:20.000Z",
+      "input": "clientName: RoomWise, email: matt@mattsolis.com",
+      "output": "Membership-based co-living. Weekly payments. Flexible, community-focused. No exact addresses. CTA: Schedule a Tour.",
+      "screenshotUrl": null,
+      "tokenCount": 850,
+      "model": "claude-sonnet-4-6",
+      "error": null
+    },
+    {
+      "stepId": "step-wf001-3",
+      "name": "Build Wireframe",
+      "status": "complete",
+      "startedAt": "2026-03-25T23:39:20.000Z",
+      "completedAt": "2026-03-25T23:40:30.000Z",
+      "input": "RoomWise context, 9-section homepage plan (Nav → Hero → How It Works → Available Rooms → Why RoomWise → Testimonials → FAQ → CTA → Footer)",
+      "output": "https://www.figma.com/design/DGDekYKD1DOrP7GeEWKxjK",
+      "screenshotUrl": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/7e0f361c-3b94-4c6c-97ee-c60eb660e4f5",
+      "tokenCount": 9300,
+      "model": "claude-sonnet-4-6 + Figma MCP",
+      "error": null
+    },
+    {
+      "stepId": "step-wf001-4",
+      "name": "Self-Healing QA Loop",
+      "status": "complete",
+      "startedAt": "2026-03-25T23:40:30.000Z",
+      "completedAt": "2026-03-25T23:41:00.000Z",
+      "input": "https://www.figma.com/design/DGDekYKD1DOrP7GeEWKxjK",
+      "output": "Wireframe exported and analyzed via vision model. 9 issues found — 2 Critical: (1) hero stat numbers colliding/overlapping with headline text making both illegible, (2) all 3 testimonial cards contain bracket placeholder text '[Resident testimonial placeholder]'. 1 High: Testimonial cards show 'Resident Name' generic placeholder. 4 Medium: Logo placeholder in header and footer, inconsistent feature section content, 'Move In Fast' section appears empty. 2 Low: star ratings lack numerical context, small body text in some sections. Testimonials and hero layout are priority fixes for client review.",
+      "screenshotUrl": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/7e0f361c-3b94-4c6c-97ee-c60eb660e4f5",
+      "tokenCount": 2100,
+      "model": "claude-sonnet-4-6 + vision",
+      "error": null
+    }
+  ]
+}
