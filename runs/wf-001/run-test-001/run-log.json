@@ -1,0 +1,25 @@
+{
+  "runId": "run-test-001",
+  "workflowId": "wf-001",
+  "workflowName": "Wireframe Delivery",
+  "clientName": "Test Client",
+  "status": "complete",
+  "startedAt": "2026-03-25T18:00:00Z",
+  "completedAt": "2026-03-25T18:30:00Z",
+  "triggeredBy": "user",
+  "triggeredByName": "Max Sher",
+  "steps": [
+    {
+      "stepId": "step-wf001-3",
+      "name": "Build Wireframe",
+      "status": "complete",
+      "startedAt": "2026-03-25T18:05:00Z",
+      "completedAt": "2026-03-25T18:20:00Z",
+      "input": "client context",
+      "output": "https://www.figma.com/design/DGDekYKD1DOrP7GeEWKxjK",
+      "screenshotUrl": null,
+      "tokenCount": 4200,
+      "model": "claude-sonnet-4-6"
+    }
+  ]
+}
