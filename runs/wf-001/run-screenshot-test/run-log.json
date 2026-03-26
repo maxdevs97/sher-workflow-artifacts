@@ -1,0 +1,12 @@
+{
+  "runId": "run-screenshot-test",
+  "workflowId": "wf-001",
+  "workflowName": "Wireframe Delivery",
+  "clientName": "Screenshot Test",
+  "status": "complete",
+  "startedAt": "2026-03-25T00:00:00Z",
+  "completedAt": "2026-03-25T00:01:00Z",
+  "triggeredBy": "user",
+  "triggeredByName": "Max Sher",
+  "steps": []
+}
