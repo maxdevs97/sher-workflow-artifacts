@@ -1,9 +1,11 @@
 {
   "runId": "run-tumen-1774492850",
   "workflowId": "wf-001",
-  "stepId": "step-4c",
-  "stepName": "QA Loop 3 Fix Export",
+  "clientName": "Tumen",
   "status": "complete",
-  "screenshotPath": "/Users/max/.openclaw/workspace-lumen/qa-export-loop3.png",
-  "figmaUrl": "https://www.figma.com/design/IVoIo6qYRav5f1iN9wZYyX"
+  "startedAt": "2026-03-26T02:40:50Z",
+  "completedAt": "2026-03-26T03:02:16Z",
+  "triggeredBy": "user",
+  "triggeredByName": "Max Sher",
+  "steps": []
 }
