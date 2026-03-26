@@ -1,23 +1,7 @@
 {
   "runId": "run-roomwise-real-1774487670",
   "workflowId": "wf-001",
-  "workflowName": "Wireframe Delivery",
-  "clientName": "RoomWise",
-  "status": "in_progress",
-  "startedAt": "2026-03-26T01:14:33Z",
-  "steps": [
-    {
-      "stepId": "step-wf001-3",
-      "name": "Build Wireframe",
-      "status": "complete",
-      "startedAt": "2026-03-26T01:14:33Z",
-      "completedAt": "2026-03-26T01:14:50Z",
-      "input": "RoomWise context, 9-section homepage",
-      "output": "https://www.figma.com/design/DGDekYKD1DOrP7GeEWKxjK — exported PNG at scale 0.5",
-      "screenshotUrl": "https://raw.githubusercontent.com/maxdevs97/sher-workflow-artifacts/main/runs/wf-001/run-roomwise-real-1774487670/steps/step-wf001-3.png",
-      "tokenCount": 9300,
-      "model": "claude-sonnet-4-6 + Figma MCP",
-      "error": null
-    }
-  ]
+  "stepId": "step-wf001-4",
+  "name": "Self-Healing QA Loop",
+  "status": "complete"
 }
