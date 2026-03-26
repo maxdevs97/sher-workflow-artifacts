@@ -1,7 +1,65 @@
 {
   "runId": "run-roomwise-real-1774487670",
   "workflowId": "wf-001",
-  "stepId": "step-wf001-4",
-  "name": "Self-Healing QA Loop",
-  "status": "complete"
+  "workflowName": "Wireframe Delivery",
+  "clientName": "RoomWise",
+  "status": "complete",
+  "startedAt": "2026-03-26T01:14:33Z",
+  "completedAt": "2026-03-26T01:15:31Z",
+  "triggeredBy": "user",
+  "triggeredByName": "Max Sher",
+  "steps": [
+    {
+      "stepId": "step-wf001-1",
+      "name": "Request Made",
+      "status": "complete",
+      "startedAt": "2026-03-26T01:14:33Z",
+      "completedAt": "2026-03-26T01:14:35Z",
+      "input": "Client: RoomWise Property Management. Co-living rooms for rent in Dallas, TX. Build homepage wireframe.",
+      "output": "Request logged. Context pulled from Reverb and web research.",
+      "screenshotUrl": null,
+      "tokenCount": null,
+      "model": null,
+      "error": null
+    },
+    {
+      "stepId": "step-wf001-2",
+      "name": "Pull Client Context",
+      "status": "complete",
+      "startedAt": "2026-03-26T01:14:35Z",
+      "completedAt": "2026-03-26T01:14:40Z",
+      "input": "clientName: RoomWise, email: matt@mattsolis.com",
+      "output": "Business: Co-living rental. Weekly payments via Stripe. Membership model. Multiple Dallas properties (6-10 rooms each). No exact addresses shown (regulatory constraint). CTA: Schedule a Tour. Tone: Approachable, community-focused.",
+      "screenshotUrl": null,
+      "tokenCount": 850,
+      "model": "claude-sonnet-4-6",
+      "error": null
+    },
+    {
+      "stepId": "step-wf001-3",
+      "name": "Build Wireframe",
+      "status": "complete",
+      "startedAt": "2026-03-26T01:14:40Z",
+      "completedAt": "2026-03-26T01:14:52Z",
+      "input": "RoomWise context, 9-section homepage: Nav → Hero → How It Works → Available Rooms → Why RoomWise → Testimonials → FAQ → CTA Banner → Footer. 1440px wide, vertical auto-layout, all copy in text nodes.",
+      "output": "https://www.figma.com/design/DGDekYKD1DOrP7GeEWKxjK — 9 sections complete, 64 text nodes updated with DME copy",
+      "screenshotUrl": "https://raw.githubusercontent.com/maxdevs97/sher-workflow-artifacts/main/runs/wf-001/run-roomwise-real-1774487670/steps/step-wf001-3.png",
+      "tokenCount": 9300,
+      "model": "claude-sonnet-4-6 + Figma MCP",
+      "error": null
+    },
+    {
+      "stepId": "step-wf001-4",
+      "name": "Self-Healing QA Loop",
+      "status": "complete",
+      "startedAt": "2026-03-26T01:15:00Z",
+      "completedAt": "2026-03-26T01:15:31Z",
+      "input": "https://www.figma.com/design/DGDekYKD1DOrP7GeEWKxjK — exported as PNG at scale 0.5",
+      "output": "QA Issues Found — CRITICAL (2): 1) Hero stat collision: stats (800+, 4500+) overlay headline text making both illegible. 2) Testimonials section: all 3 cards show [Resident testimonial placeholder] and Resident Name. MEDIUM (3): Footer shows Logo placeholder text. Nav has generic black square placeholder logo. Move In Fast feature row missing description text. LOW (3): Small text under Real-Time Room Availability. CTA placement ambiguity in value prop section. Map pins lack color legend. Client must provide: real testimonials, actual logo, real stats without collision fix.",
+      "screenshotUrl": "https://raw.githubusercontent.com/maxdevs97/sher-workflow-artifacts/main/runs/wf-001/run-roomwise-real-1774487670/steps/step-wf001-4.png",
+      "tokenCount": 2100,
+      "model": "claude-sonnet-4-6 + vision",
+      "error": null
+    }
+  ]
 }
