@@ -1,0 +1,12 @@
+{
+  "runId": "run-roomwise-loop-1774490562",
+  "workflowId": "wf-001",
+  "step": "step-wf001-3",
+  "name": "Initial wireframe export",
+  "status": "complete",
+  "startedAt": "2026-03-26T02:02:46Z",
+  "completedAt": "2026-03-26T02:03:10Z",
+  "input": "Export frame 2:2 at scale 0.5",
+  "output": "step3.png downloaded",
+  "screenshotPath": "/Users/max/.openclaw/workspace-lumen/step3.png"
+}
