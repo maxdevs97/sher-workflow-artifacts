@@ -1,92 +1,12 @@
 {
   "runId": "run-roomwise-loop-1774490562",
   "workflowId": "wf-001",
-  "figmaUrl": "https://www.figma.com/design/DGDekYKD1DOrP7GeEWKxjK",
-  "startedAt": "2026-03-26T02:02:46Z",
-  "completedAt": "2026-03-26T02:15:00Z",
-  "status": "PASS",
-  "loopsUsed": 2,
-  "steps": [
-    {
-      "stepId": "step-wf001-1",
-      "name": "Request Made",
-      "status": "complete",
-      "startedAt": "2026-03-26T02:02:40Z",
-      "completedAt": "2026-03-26T02:02:42Z",
-      "input": "RoomWise wireframe delivery — full QA loop test",
-      "output": "Run ID generated: run-roomwise-loop-1774490562"
-    },
-    {
-      "stepId": "step-wf001-2",
-      "name": "Pull Client Context",
-      "status": "complete",
-      "startedAt": "2026-03-26T02:02:42Z",
-      "completedAt": "2026-03-26T02:02:44Z",
-      "input": "RoomWise client context",
-      "output": "Context: RoomWise — co-living rooms for rent in Dallas, TX. Membership model, weekly payments via Stripe. No exact addresses. CTA: Schedule a Tour.",
-      "tokens": 850
-    },
-    {
-      "stepId": "step-wf001-3",
-      "name": "Build Wireframe — Initial Export",
-      "status": "complete",
-      "startedAt": "2026-03-26T02:02:46Z",
-      "completedAt": "2026-03-26T02:03:10Z",
-      "input": "Export frame 2:2 at scale 0.5",
-      "output": "step3.png downloaded — 311K",
-      "screenshotPath": "/Users/max/.openclaw/workspace-lumen/step3.png"
-    },
-    {
-      "stepId": "step-wf001-4a",
-      "name": "QA Loop — Attempt 1",
-      "status": "complete",
-      "startedAt": "2026-03-26T02:03:42Z",
-      "completedAt": "2026-03-26T02:06:00Z",
-      "input": "Vision QA on step3.png — found: testimonial Resident Name nodes, logo placeholder concerns",
-      "output": "Fixed 4 Resident Name nodes to [Resident — client to provide]. Testimonial quotes already correct. Footer Logo not found as text node.",
-      "issuesFound": [
-        "Resident Name x4 in testimonials"
-      ],
-      "issuesFixed": [
-        "Resident Name x4 → [Resident — client to provide]"
-      ],
-      "screenshotPath": "/Users/max/.openclaw/workspace-lumen/step4a.png"
-    },
-    {
-      "stepId": "step-wf001-4b",
-      "name": "QA Loop — Attempt 2 (Hero Stats Fix)",
-      "status": "complete",
-      "startedAt": "2026-03-26T02:12:00Z",
-      "completedAt": "2026-03-26T02:13:00Z",
-      "input": "Targeted inspection revealed Hero stat labels all set to Statistic placeholder",
-      "output": "Fixed 3 hero stat labels: Statistic → Rooms Available, Dallas Locations, Booked This Month",
-      "issuesFound": [
-        "Hero stat labels: Statistic x3"
-      ],
-      "issuesFixed": [
-        "I2:112;2:496 → Rooms Available",
-        "I2:112;2:500 → Dallas Locations",
-        "I2:112;2:504 → Booked This Month"
-      ],
-      "screenshotPath": "/Users/max/.openclaw/workspace-lumen/step5-final.png"
-    },
-    {
-      "stepId": "step-wf001-5",
-      "name": "Final Export",
-      "status": "complete",
-      "startedAt": "2026-03-26T02:13:03Z",
-      "completedAt": "2026-03-26T02:13:08Z",
-      "input": "Final export after 2 QA loops",
-      "output": "step5-final.png — 310K. REST API text scan: 82 nodes, 0 placeholders remaining.",
-      "screenshotPath": "/Users/max/.openclaw/workspace-lumen/step5-final.png",
-      "qaVerification": "REST API full scan of 82 text nodes — no Lorem ipsum, no Logo, no Statistic, no Resident Name, no placeholder text found"
-    }
-  ],
-  "clientGaps": [
-    "Testimonial quotes — 5 cards showing [Resident quote — client to provide]",
-    "Testimonial names — 5 cards showing [Resident — client to provide]",
-    "Nav item Menu Item — needs actual label (client to specify 4th nav item)",
-    "Hero stats values (100+, 25+, $350M+) — confirm with client"
-  ],
-  "qaNote": "Vision model hallucinated Logo and Resident Name issues on final export — REST API confirmed clean. 2 loops used (loop 1: testimonial names, loop 2: hero stat labels)."
+  "workflowName": "Wireframe Delivery",
+  "clientName": "RoomWise",
+  "status": "complete",
+  "startedAt": "2026-03-26T02:02:42Z",
+  "completedAt": "2026-03-26T02:14:35Z",
+  "triggeredBy": "user",
+  "triggeredByName": "Max Sher",
+  "steps": []
 }
