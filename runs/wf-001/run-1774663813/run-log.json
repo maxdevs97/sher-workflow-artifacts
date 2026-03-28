@@ -1,0 +1,77 @@
+{
+  "runId": "run-1774663813",
+  "workflowId": "wf-001",
+  "version": "3.0",
+  "clientSlug": "jeremyjenson",
+  "clientName": "Jeremy Jenson / Talent Demand",
+  "workshopRep": "Jaylin Booker",
+  "startedAt": "2026-03-27T21:08:00-05:00",
+  "completedAt": "2026-03-27T21:53:00-05:00",
+  "figmaUrl": "https://www.figma.com/design/BfmdWrEScfB1fP9J26Kbla",
+  "steps": [
+    {
+      "stepId": "step-3",
+      "name": "Figma Build — Both Versions",
+      "status": "complete",
+      "startedAt": "2026-03-27T21:23:00-05:00",
+      "completedAt": "2026-03-27T21:48:00-05:00",
+      "output": {
+        "figmaUrl": "https://www.figma.com/design/BfmdWrEScfB1fP9J26Kbla",
+        "versionsBuilt": [
+          "Version A",
+          "Version B"
+        ],
+        "sectionsPerVersion": 10,
+        "copyBatchCalls": 6,
+        "libraryFile": "zR55u8MPPZ5tV51OhvNKhp"
+      }
+    },
+    {
+      "stepId": "step-4",
+      "name": "QA — Both Versions",
+      "status": "complete",
+      "startedAt": "2026-03-27T21:48:00-05:00",
+      "completedAt": "2026-03-27T21:53:00-05:00",
+      "output": {
+        "versionA": {
+          "status": "pass",
+          "loops": 1,
+          "criticalIssues": 0,
+          "highIssues": 0
+        },
+        "versionB": {
+          "status": "pass",
+          "loops": 1,
+          "criticalIssues": 0,
+          "highIssues": 0
+        },
+        "clientGaps": [
+          "Logo / brand mark for Talent Demand (new company, may not exist)",
+          "Jeremy Jenson headshot (Founder Story + testimonials sections)",
+          "Testimonial headshots: Sanjit Shewale, Joshua Massoud, Ricca Leatherman",
+          "Hero video placeholder (founder video 60-90 sec recommended)",
+          "Actual phone number for Talent Demand vs. Jeremy personal: (832) 687-4111",
+          "Service imagery for Services section cards"
+        ],
+        "annotations": "Testimonials source annotation added to both pages: Source: Encore Search Partners | https://encoresearch.com"
+      }
+    }
+  ],
+  "versionDiff": [
+    {
+      "section": "Hero",
+      "versionA": "Home-Hero-1 (stats bar above headline, credibility-led)",
+      "versionB": "Video Hero - No Social Proof (pain-led, headline first, clean)"
+    },
+    {
+      "section": "Value Prop / Why",
+      "versionA": "Content-10 (3-column icon grid, category reframe as pillars)",
+      "versionB": "Content-3 (2-column pain accordion, visitor first-person voice)"
+    },
+    {
+      "section": "CTA Banner",
+      "versionA": "CTA-Banner-1 (two-column, text left + buttons right)",
+      "versionB": "CTA-Banner-3 (centered single-column, outcome headline)"
+    }
+  ]
+}
