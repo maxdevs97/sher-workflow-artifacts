@@ -1,0 +1,42 @@
+{
+  "runId": "run-1774908623",
+  "workflowId": "wf-002",
+  "clientSlug": "sheragency",
+  "page": "SEO Services",
+  "steps": [
+    {
+      "stepId": "read-inputs",
+      "name": "Read section selections, narrative plan, brief, consistency lock",
+      "status": "complete",
+      "startedAt": "2026-03-30T22:08:00Z",
+      "completedAt": "2026-03-30T22:08:30Z",
+      "output": "9 sections confirmed. Consistency lock applied. Version A and B copy drafted."
+    },
+    {
+      "stepId": "figma-build",
+      "name": "Build Version A + Version B frames in Figma",
+      "status": "complete",
+      "startedAt": "2026-03-30T22:09:00Z",
+      "completedAt": "2026-03-30T22:25:00Z",
+      "output": "Frame IDs: Version A = 52:2625, Version B = 53:2899. 150 text nodes updated."
+    },
+    {
+      "stepId": "qa-fix",
+      "name": "QA pass — Critical/High fix",
+      "status": "complete",
+      "startedAt": "2026-03-30T22:25:00Z",
+      "completedAt": "2026-03-30T22:32:00Z",
+      "output": "Fixed: duplicate CTA button text in both versions, footer Services column copy-paste error in both versions. 4 fixes total."
+    }
+  ],
+  "figmaUrl": "https://www.figma.com/design/GKxHEA29j4OFRdjCFta7yf",
+  "frameIds": {
+    "versionA": "52:2625",
+    "versionB": "53:2899"
+  },
+  "qaFindings": [
+    "Duplicate CTA button text — fixed in both versions",
+    "Footer Services column had contact info instead of service links — fixed in both versions"
+  ],
+  "status": "pass"
+}
