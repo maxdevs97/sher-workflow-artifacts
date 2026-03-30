@@ -1,0 +1,33 @@
+{
+  "runId": "run-1774909794",
+  "workflowId": "wf-002",
+  "clientSlug": "sheragency",
+  "page": "Indoctrination",
+  "steps": [
+    {
+      "stepId": "load-context",
+      "name": "Load Section Selections, Narrative Plan, Client Brief",
+      "status": "complete",
+      "output": "4 sections selected: Funnel Nav, Indoctrination Page, Content-10, Funnel-Footer"
+    },
+    {
+      "stepId": "figma-build",
+      "name": "Build Figma Frames — Version A + B",
+      "status": "complete",
+      "output": "Frames created: Indoctrination — Version A (105:3525), Indoctrination — Version B (105:3526) in file GKxHEA29j4OFRdjCFta7yf"
+    },
+    {
+      "stepId": "copy-fill",
+      "name": "Fill All Text Nodes",
+      "status": "complete",
+      "output": "15 text nodes filled per frame with client-specific copy. No lorem ipsum, no generic CTAs."
+    },
+    {
+      "stepId": "qa",
+      "name": "QA Check — Critical/High",
+      "status": "pass",
+      "output": "Both frames passed QA. No Critical or High issues found."
+    }
+  ],
+  "figmaUrl": "https://www.figma.com/design/GKxHEA29j4OFRdjCFta7yf/The-Sher-Agency-Full-Site-Wireframe"
+}
