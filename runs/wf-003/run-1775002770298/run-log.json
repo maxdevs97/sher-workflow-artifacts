@@ -1,0 +1,52 @@
+{
+  "runId": "run-1775002770298",
+  "workflowId": "wf-003",
+  "stepId": "step-2b",
+  "clientSlug": "strata-coating",
+  "figmaUrl": "https://www.figma.com/design/kZDdfoVd4RvetTvTkNeiXQ/Strata-Coating---Homepage-Wireframe",
+  "figmaFileKey": "kZDdfoVd4RvetTvTkNeiXQ",
+  "versionABuilt": true,
+  "versionBBuilt": true,
+  "qaStatus": "pass",
+  "humanizeDone": true,
+  "aiScoreBefore": "LOW (11 issues)",
+  "aiScoreAfter": "LOW (8 issues)",
+  "nodesHumanized": 2,
+  "steps": [
+    {
+      "stepId": "narrative-plan",
+      "status": "pass",
+      "output": "narrative-plan-strata-coating.md"
+    },
+    {
+      "stepId": "section-eval",
+      "status": "pass",
+      "output": "section-selections-strata-coating.md",
+      "sectionsEvaluated": 11,
+      "versionBDifferences": 6
+    },
+    {
+      "stepId": "button-spec",
+      "status": "pass",
+      "output": "button-spec-strata-coating.md"
+    },
+    {
+      "stepId": "figma-build",
+      "status": "pass",
+      "sectionsBuilt": 22,
+      "nodesFilledApprox": 170
+    },
+    {
+      "stepId": "qa-loop",
+      "status": "pass",
+      "loops": 2,
+      "criticalIssuesFixed": 6
+    },
+    {
+      "stepId": "humanize",
+      "status": "pass",
+      "aiScoreBefore": "LOW/11",
+      "aiScoreAfter": "LOW/8"
+    }
+  ]
+}
