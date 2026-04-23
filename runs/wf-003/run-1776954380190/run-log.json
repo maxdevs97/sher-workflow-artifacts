@@ -1,0 +1,55 @@
+{
+  "runId": "run-1776954380190",
+  "workflowId": "wf-003",
+  "clientSlug": "rigging-international-group",
+  "figmaUrl": "https://www.figma.com/design/y0kMhQlvDNqMc5fATy6OGz/Rigging-International-Group---Homepage-Wireframe",
+  "figmaFileKey": "y0kMhQlvDNqMc5fATy6OGz",
+  "versionAFrameId": "3:2",
+  "versionBFrameId": "4:2",
+  "steps": [
+    {
+      "stepId": "step-2",
+      "name": "Nav Spec",
+      "status": "pass"
+    },
+    {
+      "stepId": "step-3",
+      "name": "Narrative Plan + Section Evaluation",
+      "status": "pass"
+    },
+    {
+      "stepId": "step-4",
+      "name": "Button Spec",
+      "status": "pass"
+    },
+    {
+      "stepId": "step-5",
+      "name": "Create Figma File",
+      "status": "pass"
+    },
+    {
+      "stepId": "step-6",
+      "name": "Figma Build - Structure",
+      "status": "pass"
+    },
+    {
+      "stepId": "step-8",
+      "name": "Copy Generation",
+      "status": "pass"
+    },
+    {
+      "stepId": "step-9",
+      "name": "Copy Injection",
+      "status": "pass"
+    },
+    {
+      "stepId": "step-7",
+      "name": "QA",
+      "status": "pass"
+    }
+  ],
+  "qaStatus": "pass",
+  "humanizeDone": true,
+  "versionABuilt": true,
+  "versionBBuilt": true
+}
